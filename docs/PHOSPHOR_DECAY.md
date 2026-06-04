@@ -5,6 +5,9 @@ browser/WebGL work. The current decay model is not copied from PrettyScope
 Graveyard. It is the standalone renderer's current golden-look approximation,
 combined with the Woscope-style Gaussian beam rendering noted in `SALVAGE.md`.
 
+For the fuller woscope-style walkthrough of the complete beam/deposit/decay
+pipeline, see `PHOSPHOR_RENDERING_TECHNIQUE.md`.
+
 ## Render Loop
 
 Persistent rendering uses two color textures and framebuffers:

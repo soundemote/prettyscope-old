@@ -42,6 +42,11 @@ work lives in `src/` and should stay small, direct, and runnable.
   - Syphon sender support on macOS.
   - Spout sender support on Windows.
 
+For the rendering model, see `docs/PHOSPHOR_RENDERING_TECHNIQUE.md`. It
+documents the beam/deposit/decay technique in the spirit of the original
+woscope article, with Prettyscope's phosphor persistence and browser/WebGL port
+notes.
+
 ## Build
 
 ```powershell
